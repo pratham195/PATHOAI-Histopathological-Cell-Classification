@@ -1,0 +1,64 @@
+# Exclude all PDF documents
+*.pdf
+# Python environments and caches
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+
+# Django
+db.sqlite3
+db.sqlite3-*
+staticfiles/
+media/
+
+# Node / React
+node_modules/
+dist/
+build/
+coverage/
+
+# ML datasets
+ml-pipeline/data/
+ml-pipeline/untested/
+ml-pipeline/sample_images/
+
+# Trained models and checkpoints
+ml-pipeline/models/
+*.pt
+*.pth
+*.joblib
+*.pkl
+*.h5
+*.keras
+*.npy
+*.npz
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# Local project reference files
+project_structure.txt
+projectstructure.txt
+types.txt
+
+docs/dataset_access_correspondence.md

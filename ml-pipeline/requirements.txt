@@ -1,0 +1,28 @@
+# Core
+numpy
+pandas
+scipy
+
+# ML / DL
+scikit-learn
+torch
+torchvision
+torchcam        # Grad-CAM implementations
+
+# Image processing
+opencv-python
+scikit-image
+Pillow
+
+# Data acquisition
+datasets         # HuggingFace datasets (PanNuke mirror)
+huggingface_hub
+
+# Visualization
+matplotlib
+seaborn
+umap-learn
+
+# Utilities
+tqdm
+jupyter
